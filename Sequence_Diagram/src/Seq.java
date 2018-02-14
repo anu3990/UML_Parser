@@ -35,7 +35,7 @@ public class Seq {
 	            String lines = bufferedReader.readLine();
 	            while(lines != null){		//Read all the lines of the java files
 	                input.append(lines);
-	                input.append('\n');
+	                input.append('\n');		//Append new line
 	                lines = bufferedReader.readLine();
 	            }
 	        }
